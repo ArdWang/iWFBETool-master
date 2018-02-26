@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">iWFBETool</string>
+    <string name="login_button">Login</string>
+    <string name="res_button">Resgiter</string>
+
+    <string name="edit_dialog_cancel">Cancel</string>
+    <string name="edit_dialog_ok">OK</string>
+
+    <string name="select_dialog_local">Local</string>
+
+    <string name="select_dialog_net">NetWork</string>
+
+
+    <string name="tt_fahren_heit">°F</string>
+    <string name="tt_celcius">°C</string>
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/login_main_layout"
+    android:background="@drawable/login_bg3"
+    >
+    <RelativeLayout
+        style="@style/rl_normal_style"
+        >
+        <VideoView
+            android:visibility="gone"
+            android:id="@+id/login_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--分成3份-->
+            <LinearLayout
+                style="@style/login_layout_three_one"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="iWFBETool"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/login_layout_three_two"
+                >
+                <LinearLayout
+                    android:id="@+id/ll_username"
+                    style="@style/login_edittext_layout"
+                    >
+                    <ImageView
+                        style="@style/warp_normal_style"
+                        android:background="@drawable/username"
+                        />
+
+                    <EditText
+                        android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
+                        android:id="@+id/username"
+                        android:hint="please input account"
+                        style="@style/login_edittext_style"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_password"
+                    android:layout_marginTop="@dimen/dp_15"
+                    style="@style/login_edittext_layout"
+                    >
+                    <ImageView
+                        style="@style/warp_normal_style"
+                        android:background="@drawable/password"
+                        />
+
+                    <EditText
+                        android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
+                        android:id="@+id/password"
+                        style="@style/login_edittext_style"
+                        android:inputType="textPassword"
+                        android:hint="please input password"
+
+                        />
+                </LinearLayout>
+
+                <!--login-->
+                <LinearLayout
+                    style="@style/login_layout"
+                    >
+                    <Button
+                        android:id="@+id/login"
+                        style="@style/login_button"
+                        />
+                </LinearLayout>
+
+                <!--忘记密码-->
+                <LinearLayout
+                    android:id="@+id/ll_forget_pwd"
+                    style="@style/login_forget_layout"
+                    android:padding="@dimen/dp_5"
+                    >
+
+                    <TextView
+                        style="@style/warp_normal_style"
+                        android:textColor="@color/colorWhite"
+                        android:text="Forget PassWord?"
+                        android:textSize="@dimen/sp_16"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--join us-->
+            <LinearLayout
+                style="@style/login_layout_three_one"
+                >
+
+                <LinearLayout
+                    style="@style/layout_login_join_us"
+                    >
+                    <View
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_pont_5"
+                        android:background="@color/colorWhite"
+                        />
+                    <!--加入我们-->
+                    <LinearLayout
+                        android:id="@+id/ll_join_us"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:padding="@dimen/dp_5"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="加入我们！"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlack">#444444</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlue">#4876FF</color>
+    <color name="colorSBlue">#4169E1</color>
+    <color name="colorYellow">#FFD700</color>
+    <color name="colorSYellow">#FFB90F</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorBBK">#EAEAEA</color>
+
+    <color name="colorGery">#444444</color>
+    <!-- 选中的颜色 -->
+    <color name="ll_select">#aaa</color>
+
+    <color name="colorTransparent">#00000000</color>
+
+    <!-- 灰色 -->
+    <color name="border_color">#CCCCCC</color>
+
+    <color name="colorLineHei">#444444</color>
+
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="actionsheet_blue">#037BFF</color>
+
+    <!-- ==================Material样式日历对话框================== -->
+    <!-- 选中日期的背景颜色值 -->
+    <color name="materialcalendar_selected_color">#476BF0</color>
+    <!-- 当天日期的边框的背景颜色值 -->
+    <color name="materialcalendar_today_border_color">#FF4081</color>
+
+</resources>
